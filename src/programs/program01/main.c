@@ -10,8 +10,15 @@ int main(int argc, char **argv) {
    int number = 0;
    printf("Geben Sie eine Zahl ein: ");
    scanf("%d", &number);
+   if (number > 0)
    for (int i = 0; i <= number ; i++) {
       printf("%d ", i);
+   }
+   else
+   {
+      for (int i = 0; i >= number ; i--) {
+      printf("%d ", i);
+   }
    }
    printf("\n");
 
