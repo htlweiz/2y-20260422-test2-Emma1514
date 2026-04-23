@@ -15,6 +15,7 @@ int main(int argc, char **argv)
   while (number <= 6)
   {
     printf("%d\n", number);
-  }
-  printf("Du hast %d Mal gültig gewürfelt.", count);
+    (count++);
+  } 
+  printf("Du hast %d Mal gültig gewürfelt.\n", count);
 }
